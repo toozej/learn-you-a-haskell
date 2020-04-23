@@ -29,7 +29,8 @@ What is this repo for?
 ----------------------
 
 With the help of this repo, you can make your own ebook version of the book.
-Make sure you have Pandoc installed and pdflatex (for making the pdf) and then 
+Make sure you have Pandoc and pdflatex (for making the pdf) installed, or 
+have Docker installed to pull the official Pandoc container image and then 
 use 'make all', 'make epubs' or 'make pdfs' depending on what you want.
 The output will be written to a directory called 'out'
 
